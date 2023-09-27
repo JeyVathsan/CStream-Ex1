@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    height: 120px;
+    position: fixed;
+}
+.para-con-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin-left: 20px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    
+}
+section{
+    width: 100%;
+    height: 100vh;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(36, 33, 33);
+}
+
+.para-con{
+    width: 700px;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.para{
+    font-size: 35px;
+}
+.img{
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: -2px 2px 40px rgb(32, 32, 255);
+}
+.whole-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+}
+.abtme-con{
+    width: 100%;
+    background-color: rgb(41, 48, 48);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.abtme{
+    color: black;
+    width: 50%;
+    font-size: 20px;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.abtme:hover{
+    font-size: 30px;
+    color: white;
+}
+.skills{
+    font-style: italic;
+}
+.passimg{
+    width: 20%;
+    height: auto;
+    border-radius: 70%;
+}
+#sec2{
+    background-color: black;
+}
+#sec3{
+    background-color: rgb(34, 23, 9);
+}
+.hi{
+    color: white;
+    font-weight: bold;
+    font-family: algerian;
+}
+.hi:hover{
+    width: 200px;
+}
+.edu{
+    color: white;
+}
+.edu-con{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.eduspn{
+    font-style: italic;
+}
+.ctcdet-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 90%;
+    margin-left: 20px;
+}
+
+
+.btn1{
+    color: white;
+    background-color: rgb(34, 23, 9);
+    border: 0px;
+    font-size: 18px;
+    margin: 0px 0px 0px 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.btn1:hover{
+    background-color: rgb(175, 159, 159);
+    box-shadow: 0px 6px 20px rgb(60, 60, 215);
+}
